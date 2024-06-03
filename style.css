@@ -5,7 +5,7 @@
     width: 50px;
     height: 50px;
     color: black;
-    background-color: blue;
+    background-color: aqua;
     border: none;
     display: flex;
     align-items: center;
@@ -13,6 +13,7 @@
     border-radius: 10px;
     margin: 5px;
     font-size: 16px;
+    appearance: none;
     padding: 30px;
     cursor: pointer;
     transition: 300ms;
