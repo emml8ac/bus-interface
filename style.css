@@ -1,0 +1,53 @@
+#cont5{
+    height: 50px;
+}
+ .asiento{
+    width: 50px;
+    height: 50px;
+    color: black;
+    background-color: aqua;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 16px;
+    padding: 30px;
+    appearance: none;
+    cursor: pointer;
+    transition: 300ms;
+    position: relative;
+    
+}
+ input[type="checkbox"]{
+    position: absolute;
+    opacity: 0;
+    
+ }
+.asiento:checked{
+    background-color: red;
+    opacity: 100;
+    transition: 300ms;
+}
+
+.labelura{
+    color:black;
+    content: none;
+    position: absolute;
+    pointer-events: none;
+}
+
+.hola{
+    width: 50px;
+    height: 50px;
+    background-color:white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 16px;
+    padding: 30px;
+}
