@@ -18,13 +18,7 @@
     cursor: pointer;
     transition: 300ms;
     position: relative;
-    
 }
- input[type="checkbox"]{
-    position: absolute;
-    opacity: 0;
-    
- }
 .asiento:checked{
     background-color: red;
     opacity: 100;
