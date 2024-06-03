@@ -1,22 +1,20 @@
 document.body.onload = crearAsientos;
 function crearAsientos() {
+    var div2 = document.createElement("div")
+    div2.setAttribute("class","asiento-vacio")
     for (var index = 1; index < 48; index++) {
         var div = document.createElement("div")
         var contenido = document.createTextNode(index)
-        var div2 = document.createElement("div")
         var input = document.createElement("input")
-        var label = document.createElement("span")
-        label.innerHTML = contenido.textContent
-        label.setAttribute("class","labelura")
+        var span = document.createElement("span")
+        span.innerHTML = contenido.textContent
+        span.setAttribute("class","nAsiento")
         input.setAttribute("type","checkbox")
         input.setAttribute("class","asiento")
         input.setAttribute("onclick","seleccionarAsiento()")
-        div2.appendChild(contenido)
-        div2.setAttribute("class","hola")
-        
         div.appendChild(input)
         div.setAttribute("class", "asiento")
-        div.appendChild(label)
+        div.appendChild(span)
         if (index % 2 == 0) {
             if (index > 25) {
                 if(index == 26){
